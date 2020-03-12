@@ -4,21 +4,30 @@ if n == 3
 end
 
 n = 4
-if n = 3 || n = 4
+if n == 3
   puts "3,4のどちらかです"
+elsif n == 4
+  puts "3,4のどちらかです"
+else
+  puts " "
 end
 
+n = 3
 if n == 4
+  puts "nは4です"
+elsif n == 3
   puts "nは3です"
-elsif puts "nは4です"
+else
+  puts " "
 end
 
-for n in ["こんにちは", "こんにちは", "こんにちは", "こんにちは", "こんにちは"]do
-  puts n
+for n in 1..5 do
+  puts "こんにちは"
 end
 
-[1,2,3,4,5].each do |n|
-  puts n
+n = 1..5
+n.each do |num|
+  puts num
 end
 
 n = 2
